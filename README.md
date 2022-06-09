@@ -1,4 +1,4 @@
-# Product/Platform - Task
+# WPF Data Grid - Specify Custom Content for Headers Displayed in Column Chooser
 
 This is the repository template for creating new examples. Describe the solved task here.
 
