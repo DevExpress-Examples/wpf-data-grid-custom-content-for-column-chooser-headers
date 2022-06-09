@@ -11,8 +11,8 @@ This example adds the **Click** button to the **Id** column's header when it is 
 
 ## Files to Look At
 
-- [MainWindow.xaml](./CS/WPFGrid_ColumnChooser/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WPFGrid_ColumnChooser/MainWindow.xaml))
-- [MainWindow.xaml.cs](./CS/WPFGrid_ColumnChooser/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WPFGrid_ColumnChooser/MainWindow.xaml.vb))
+- [MainWindow.xaml](./CS/WPFGrid_ColumnChooser/MainWindow.xaml)
+- [MainWindow.xaml.cs](./CS/WPFGrid_ColumnChooser/MainWindow.xaml.cs)
 
 ## Documentation
 
