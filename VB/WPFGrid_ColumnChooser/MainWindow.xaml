@@ -1,0 +1,28 @@
+<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFGrid_ColumnChooser"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        x:Class="WPFGrid_ColumnChooser.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="500">
+    <Window.Resources>
+        <DataTemplate x:Key="columnChooserTemplate">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="{Binding}"/>
+                <Button Content="Click" Margin="5,0,0,0"/>
+            </StackPanel>
+        </DataTemplate>
+
+        <local:HeaderTemplateSelector x:Key="headerTemplateSelector" 
+                                      ColumnChooserTemplate="{StaticResource columnChooserTemplate}"/>
+    </Window.Resources>
+
+    <dxg:GridControl x:Name="grid" AutoGenerateColumns="AddNew">
+        <dxg:GridControl.View>
+            <dxg:TableView x:Name="view" ColumnHeaderTemplateSelector="{StaticResource headerTemplateSelector}"/>
+        </dxg:GridControl.View>
+    </dxg:GridControl>
+</Window>
