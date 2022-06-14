@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFGrid_ColumnChooser", "WPFGrid_ColumnChooser\WPFGrid_ColumnChooser.csproj", "{D1EA6903-931D-4C77-955D-53CEB6999C44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFGrid_ColumnChooser", "WPFGrid_ColumnChooser\WPFGrid_ColumnChooser.csproj", "{7FD9E9B7-6415-428D-80A7-1AAB058E7B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D1EA6903-931D-4C77-955D-53CEB6999C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1EA6903-931D-4C77-955D-53CEB6999C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1EA6903-931D-4C77-955D-53CEB6999C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1EA6903-931D-4C77-955D-53CEB6999C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FD9E9B7-6415-428D-80A7-1AAB058E7B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FD9E9B7-6415-428D-80A7-1AAB058E7B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FD9E9B7-6415-428D-80A7-1AAB058E7B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FD9E9B7-6415-428D-80A7-1AAB058E7B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {474941F5-3F33-4ED3-BF9E-17FB5E6484AF}
+		SolutionGuid = {6F7ED42E-E093-4F35-A46D-43720DC582DC}
 	EndGlobalSection
 EndGlobal

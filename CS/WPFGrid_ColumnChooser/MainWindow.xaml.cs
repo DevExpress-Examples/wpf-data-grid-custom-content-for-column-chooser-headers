@@ -5,10 +5,6 @@ using System.Windows.Controls;
 
 namespace WPFGrid_ColumnChooser {
     public partial class MainWindow : Window {
-        public class Item {
-            public int Id { get; set; }
-            public string Name { get; set; }
-        }
         public MainWindow() {
             InitializeComponent();
 
@@ -19,6 +15,10 @@ namespace WPFGrid_ColumnChooser {
             grid.ItemsSource = items;
             view.ShowColumnChooser();
         }
+    }
+    public class Item {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
     public class HeaderTemplateSelector : DataTemplateSelector {
         public DataTemplate ColumnChooserTemplate { get; set; }

@@ -7,7 +7,7 @@
         xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
         x:Class="WPFGrid_ColumnChooser.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="350" Width="500">
     <Window.Resources>
         <DataTemplate x:Key="columnChooserTemplate">
             <StackPanel Orientation="Horizontal">
