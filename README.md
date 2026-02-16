@@ -26,7 +26,7 @@ This example adds the **Click** button to the **Id** column's header when it is 
 - [WPF Data Grid - Create a Custom Column Chooser](https://github.com/DevExpress-Examples/how-to-create-a-custom-column-chooser-e1661)
 - [WPF Data Grid - Display an Image within a Column Header](https://github.com/DevExpress-Examples/how-to-display-an-image-within-a-column-header-e1629)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-custom-content-for-column-chooser-headers&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-custom-content-for-column-chooser-headers&~~~was_helpful=no)
 
